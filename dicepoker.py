@@ -15,19 +15,19 @@ dice ={1:["     ","  o  ","     "], 2:["o    ","     ","    o"],
 
 #This code will throw dicec, result stored in dict, where keys are a-e, values 1-6
 #The argument is also a dict, in case, there is a previous result, 
-#and this code chancd Docdge dices entered by the player
+#and this code chancd Docdge dice entered by the player
 def throw(throw = {}):
     if throw == {}: #This is the initial throw, where dict is empty
         throw = {i:random.randrange(1,7) for i in 'abcde'}
     else: #This happen when there is a previous result of throw()
-        change = input("\nMelyiket szeretnéd újra dobni?")
+        change = input("\nSelect dice to throw.")
         for i in throw:
             if i in change:
                 throw[i]=random.randrange(1,7)
-    draw(throw) #The code draw the dices by calling draw() function
+    draw(throw) #The code draw the dice by calling draw() function
     return throw
 
-#This function prints out the dices. The shape of dices stored in dice argumentum
+#This function prints out the dice. The shape of dice stored in dice argumentum
 def draw(throw):
     nums = [throw[i] for i in "abcde"]
     time.sleep(2)
