@@ -6,6 +6,6 @@ This is good example, how effectively can we use nested lists and dictionaries.
 
 **How to play?**
 
-Run the dicepoker.py from your terminal or use the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apy444/Dicepoker/master)
+Run the dicepoker.py from your terminal or click the [![Binder link](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apy444/Dicepoker/master) which creates the environment, and open the dicepoke.ipynb. Run all.
 
-You will see the results of five dices after the first throw. Continue playing, you can throw again with selected dices, two consecutive times. After that a new turn starts. Dices are displayed traditional way (dots on faces).
+You will see the results of five dices after the first throw. Continue playing, insert the letter of dices you want to throw again, two consecutive times. After that a new turn starts. Dices are displayed traditional way (dots on faces).
