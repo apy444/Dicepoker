@@ -1,8 +1,8 @@
 ## Dicepoker
 
-If someone wants to play a dicepoker he/she definitely needs to have dices. It happened to me ones. But instead of making trouble of looking for dices at the store, I sat in front of the computer and you can see the result here.
+If someone wants to play a dicepoker he/she definitely needs to have dices. It happened to me ones. But instead of making trouble of looking for dices at the store, I sat in front of the computer and wrote my dicepoker application.
 
-This is good example, how effectively can we use nested lists and dictionaries.
+This is a good example, how effectively we can use nested lists and dictionaries.
 
 **How to play?**
 
